@@ -20,7 +20,7 @@ func countEvenFibonacciNumbers() {
         newTerm = termA + termB
         termA = termB
         termB = newTerm
-        if(newTerm % 2 == 0) {
+        if newTerm % 2 == 0 {
             sumOfEvenNumbers += newTerm
         }
         print("Current term: \(newTerm), sum of even terms: \(sumOfEvenNumbers)")
