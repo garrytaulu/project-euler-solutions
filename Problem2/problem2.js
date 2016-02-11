@@ -20,12 +20,11 @@ function countEvenFibonacciNumbers() {
     newTerm = termA + termB;
     termA = termB;
     termB = newTerm;
-    if(newTerm % 2 === 0) {
+    if (newTerm % 2 === 0) {
       sumOfEvenTerms += newTerm;
     }
     console.log("Current term: " + newTerm + ", sum of even terms: " + sumOfEvenTerms);
   }
-
 }
 
 countEvenFibonacciNumbers();
